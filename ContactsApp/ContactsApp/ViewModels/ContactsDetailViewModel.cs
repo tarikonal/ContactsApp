@@ -31,6 +31,7 @@ namespace ContactsApp.ViewModels
                 LastName = viewModel.LastName,
                 Phone = viewModel.Phone,
                 Email = viewModel.Email,
+                Company = viewModel.Company,
                 IsFavorite = viewModel.IsFavorite,
             };
         }

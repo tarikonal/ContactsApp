@@ -15,6 +15,7 @@ namespace ContactsApp.Models
         public string Phone { get; set; }
         [MaxLength(255)]
         public string Email { get; set; }
+        public string Company { get; set; }
         public bool IsFavorite { get; set; }
     }
 }

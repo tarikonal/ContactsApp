@@ -16,6 +16,9 @@
                 <EntryCell Label="Phone" Text="{Binding Path=Contact.Phone}"/>
                 <EntryCell Label="Email" Text="{Binding Path=Contact.Email}"/>
             </TableSection>
+            <TableSection Title="Company">
+                <EntryCell Label="Company" Text="{Binding Path=Contact.Company}"/>
+            </TableSection>
             <TableSection Title="Other">
                 <SwitchCell Text="Add To Favorites" On="{Binding Path=Contact.IsFavorite}"/>
             </TableSection>

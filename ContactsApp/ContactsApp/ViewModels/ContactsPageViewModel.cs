@@ -58,6 +58,7 @@ namespace ContactsApp.ViewModels
             contactInList.LastName = contact.LastName;
             contactInList.Phone = contact.Phone;
             contactInList.Email = contact.Email;
+            contactInList.Company = contact.Company;
             contactInList.IsFavorite = contact.IsFavorite;
         }
 

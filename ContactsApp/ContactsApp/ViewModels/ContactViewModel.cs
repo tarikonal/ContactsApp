@@ -19,6 +19,7 @@ namespace ContactsApp.ViewModels
             _lastName = contact.LastName;
             Phone = contact.Phone;
             Email = contact.Email;
+            Company = contact.Company;
             IsFavorite = contact.IsFavorite;
         }
         private string _firstName;
@@ -50,6 +51,16 @@ namespace ContactsApp.ViewModels
             set
             {
                 SetValue(ref _email, value);
+            }
+        }
+
+        private string _company;
+        public string Company
+        {
+            get => _company;
+            set
+            {
+                SetValue(ref _company, value);
             }
         }
 
