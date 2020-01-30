@@ -96,9 +96,13 @@ namespace ContactsApp.ViewModels
             {
                 if (IsFavorite)
                 {
-                    return ImageSource.FromResource("ContactsApp.Assets.Images.FavoriteProfile.png");
+                    return Device.RuntimePlatform == Device.Android
+                ? ImageSource.FromFile("favoriteprofile.png")
+                : ImageSource.FromFile("Images/favoriteprofile.png");
                 }
-                return ImageSource.FromResource("ContactsApp.Assets.Images.NormalProfile.png");
+                return Device.RuntimePlatform == Device.Android
+                ? ImageSource.FromFile("normalprofile.png")
+                : ImageSource.FromFile("Images/normalprofile.png");//ImageSource.FromResource("ContactsApp/Assets/Images/normalprofile.png");
             }
         }
     }

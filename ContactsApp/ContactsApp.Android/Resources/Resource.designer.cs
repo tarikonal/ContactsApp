@@ -5734,7 +5734,7 @@ namespace ContactsApp.Droid
 			public const int design_snackbar_background = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int FavoriteProfile = 2131165282;
+			public const int favoriteprofile = 2131165282;
 			
 			// aapt resource value: 0x7F070063
 			public const int ic_mtrl_chip_checked_black = 2131165283;
@@ -5755,7 +5755,7 @@ namespace ContactsApp.Droid
 			public const int navigation_empty_icon = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int NormalProfile = 2131165289;
+			public const int normalprofile = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
 			public const int notification_action_background = 2131165290;
